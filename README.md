@@ -39,14 +39,14 @@ The design uses a simple, luxurious palette:
 
 ## 🧩 Features
 
-🖥 Home Page
+### 🖥 Home Page
 A welcoming hero section, product preview, and a beautifully styled footer.
 
-## 📚 About Us
+### 📚 About Us
 
 Brand story, mission, Meet The Maker section, and testimonial space.
 
-## 🖼 Gallery / Shop
+### 🖼 Gallery / Shop
 
 - Pinterest-style masonry layout
 
@@ -56,7 +56,7 @@ Brand story, mission, Meet The Maker section, and testimonial space.
 
 Product cards ready for API or database integration
 
-## 📞 Contact Page
+### 📞 Contact Page
 
 - Email form using EmailJS
 
@@ -64,11 +64,11 @@ Product cards ready for API or database integration
 
 - Animation on successful submission
 
-## 📱 Fully Responsive
+### 📱 Fully Responsive
 
 Optimized for desktop, tablet, and mobile with custom CSS.
 
-## ⚙️ Tech Stack
+### ⚙️ Tech Stack
 - React.js
 
 - React Router
