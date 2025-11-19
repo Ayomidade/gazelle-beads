@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Spike Bag",
+    "category": "Bags",
+    "image": "spike.jpg",
+    "description": "A beautifully crafted crystal bead purse designed for elegance."
+  },
+  {
+    "id": 2,
+    "name": "Handmade Waist Belt",
+    "category": "Waist Belts",
+    "image": "belt.jpg",
+    "description": "A vibrant waist belt to elevate your style."
+  },
+  {
+    "id": 3,
+    "name": "Luxury Bracelet",
+    "category": "Bracelets",
+    "image": "wrist.jpg",
+    "description": "Stylish handmade bracelet for everyday use."
+  },
+  {
+    "id": 4,
+    "name": "Portable Handbag",
+    "category": "Bags",
+    "image": "yellow 2.jpg",
+    "description": "A portable handbag suitable for any event and outing"
+  },
+  {
+    "id": 5,
+    "name": "Fashionable Bag",
+    "category": "Bags",
+    "image": "black bag.jpg",
+    "description": "A beautifully crafted crystal bead purse designed for elegance."
+  },
+  {
+    "id": 6,
+    "name": "Handmade Bag",
+    "category": "Bags",
+    "image": "b&w2.jpg",
+    "description": "A beautifully crafted crystal bead purse designed for elegance."
+  },
+  {
+    "id": 7,
+    "name": "Handmade Bag",
+    "category": "Bags",
+    "image": "wrist.jpg",
+    "description": "A beautifully crafted crystal bead purse designed for elegance."
+  },
+  {
+    "id": 8,
+    "name": "Handmade Bag",
+    "category": "Bags",
+    "image": "spike.jpg",
+    "description": "A beautifully crafted crystal bead purse designed for elegance."
+  }
+]

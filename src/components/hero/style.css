@@ -1,0 +1,59 @@
+/* ===== HERO SECTION ===== */
+.hero {
+  background:rgba(5, 30, 99, 0.719)
+    url("/src/assets/b&w2.jpg") center/cover no-repeat; 
+  color: var(--section-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  text-align: center;
+  padding: 32px;
+  background-blend-mode: color-burn ;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  line-height: 1.7;
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: var(--accent-light, #fde68a);
+  transform: scale(1.05);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+.hero{
+  min-height: 70vh;
+}
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
