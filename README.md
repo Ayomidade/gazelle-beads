@@ -84,7 +84,7 @@ Optimized for desktop, tablet, and mobile with custom CSS.
 Clone the repository:
 The project can be deployed to:
 bash
-- git clone https://github.com/your-username/gazelle-beads.git
+- git clone https://github.com/Ayomidade/gazelle-beads.git
 - cd gazelle-beads
 - Install dependencies:
 
