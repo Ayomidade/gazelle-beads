@@ -2,57 +2,49 @@
   {
     "id": 1,
     "name": "Spike Bag",
-    "category": "Bags",
+    "categories": "Bags",
     "image": "spike.jpg",
-    "description": "A beautifully crafted crystal bead purse designed for elegance."
+    "description": "A beautifully crafted crystal bead purse designed for elegance.",
+    "price": "1200"
   },
   {
     "id": 2,
     "name": "Handmade Waist Belt",
-    "category": "Waist Belts",
+    "categories": "Waist Belts",
     "image": "belt.jpg",
-    "description": "A vibrant waist belt to elevate your style."
+    "description": "A vibrant waist belt to elevate your style.",
+    "price": "1200"
   },
   {
     "id": 3,
     "name": "Luxury Bracelet",
-    "category": "Bracelets",
+    "categories": "Bracelets",
     "image": "wrist.jpg",
-    "description": "Stylish handmade bracelet for everyday use."
+    "description": "Stylish handmade bracelet for everyday use.",
+    "price": "1200"
   },
   {
     "id": 4,
     "name": "Portable Handbag",
-    "category": "Bags",
+    "categories": "Bags",
     "image": "yellow 2.jpg",
-    "description": "A portable handbag suitable for any event and outing"
+    "description": "A portable handbag suitable for any event and outing",
+    "price": "1200"
   },
   {
     "id": 5,
-    "name": "Fashionable Bag",
-    "category": "Bags",
+    "name": "Handy Classy Bag",
+    "categories": "Bags",
     "image": "black bag.jpg",
-    "description": "A beautifully crafted crystal bead purse designed for elegance."
+    "description": "A beautifully crafted crystal bead purse designed for elegance.",
+    "price": "2000"
   },
   {
     "id": 6,
-    "name": "Handmade Bag",
-    "category": "Bags",
+    "name": "Walk with me Bag",
+    "categories": "Bags",
     "image": "b&w2.jpg",
-    "description": "A beautifully crafted crystal bead purse designed for elegance."
-  },
-  {
-    "id": 7,
-    "name": "Handmade Bag",
-    "category": "Bags",
-    "image": "wrist.jpg",
-    "description": "A beautifully crafted crystal bead purse designed for elegance."
-  },
-  {
-    "id": 8,
-    "name": "Handmade Bag",
-    "category": "Bags",
-    "image": "spike.jpg",
-    "description": "A beautifully crafted crystal bead purse designed for elegance."
+    "description": "A beautifully crafted crystal bead purse designed for elegance.",
+    "price": "1200"
   }
 ]

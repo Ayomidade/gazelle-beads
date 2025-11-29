@@ -173,7 +173,7 @@
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .contact-section {
-    padding: 0;
+    padding: 0 15px;
   }
 
   .contact-content {
@@ -193,7 +193,7 @@
 
   .contact-header h2 {
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 27px;
   }
 
   .contact-header p {

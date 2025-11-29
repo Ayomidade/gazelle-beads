@@ -24,13 +24,21 @@ const Gallery = () => {
   const filteredProducts =
     activeCategory === "All"
       ? products
-      : products.filter((item) => item.category === activeCategory);
+      : products.filter((item) => item.categories === activeCategory);
 
   const visibleItems = filteredProducts.slice(0, visibleCount);
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
   };
+
+  function splitWords(word) {
+    if (word.length > 12) {
+      return word.slice(0, 12) + "...";
+    } else {
+      return word;
+    }
+  }
 
   const handleChat = () => {};
 
@@ -65,6 +73,9 @@ const Gallery = () => {
               onClick={() => setSelectedProduct(product)}
             >
               <img src={product.image} alt={product.name} loading="lazy" />
+              <div className="gallery-card-info mobile">
+                <h3>{splitWords(product.name)}</h3>
+              </div>
               <div className="gallery-card-info">
                 <h3>{product.name}</h3>
               </div>
@@ -84,7 +95,6 @@ const Gallery = () => {
             </button>
           </div>
         )}
-        
       </div>
 
       {/* ----- MODAL ----- */}
@@ -92,8 +102,14 @@ const Gallery = () => {
         <div className="modal-overlay" onClick={() => setSelectedProduct(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img src={selectedProduct.image} alt={selectedProduct.name} />
-            <h2>{selectedProduct.name}</h2>
-            <p>{selectedProduct.description}</p>
+            <div className="product-name">
+              <h2>{selectedProduct.name}</h2>
+              {/* <p className="product-price">{selectedProduct.price}</p> */}
+              <p className="product-price">
+                {`₦${Number(selectedProduct.price).toLocaleString()}`}
+              </p>
+            </div>
+            <p className="product-description">{selectedProduct.description}</p>
 
             <div className="modal-buttons">
               <button
@@ -104,7 +120,8 @@ const Gallery = () => {
               </button>
               <button className="close-modal">
                 <a
-                  href={`https://wa.me/+2348089249747/${selectedProduct.name}`}
+                  href={`https://wa.me/+2348089249747/?text=Hello%20i%20want%20to%20know%20more%20about%20this%20product%20${selectedProduct.name}`}
+                  target="_blank"
                 >
                   Place Order
                 </a>
